@@ -1,3 +1,8 @@
+# Project Euler 54 in Ruby
+
+#### To run, clone this down and run `./bin/play` to install, run tests and see the answer. 
+
+================
 In the card game poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
 
 High Card: Highest value card.
