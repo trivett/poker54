@@ -50,12 +50,3 @@ with Three Threes
 The file, poker.txt, contains one-thousand random hands dealt to two players. Each line of the file contains ten cards (separated by a single space): the first five are Player 1's cards and the last five are Player 2's cards. You can assume that all hands are valid (no invalid characters or repeated cards), each player's hand is in no specific order, and in each hand there is a clear winner.
 
 How many hands does Player 1 win?
-
-
-
-
-Please spend no more than 24-48 hours on coding this challenge. The assignment is to write code (using ruby) that could be used to solve this problem: https://projecteuler.net/problem=54
-
-Please create ruby class(es) to process a file such as the sample provided by Project Euler (https://projecteuler.net/project/resources/p054_poker.txt) and calculate the winner of each poker hand.
-
-It could be pretty challenging to complete the entire challenge in the time allotted, so break the challenge into milestones. We're more interested in seeing your solutions to the more unique parts of this problem (creating and comparing poker hands) rather than the more generic parts (file IO and text parsing). So prioritize accordingly! It will be better to deliver only some milestones than it would be to do a bit of work on everything and deliver a bunch of half-finished, mostly empty classes.
