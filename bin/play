@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Exit if any subcommand fails
+set -e
+
+# Set up Ruby dependencies via Bundler
+gem install bundler --conservative --no-document
+bundle check || bundle install
+
+# run all tests
+rspec spec
+
+# go time
+ruby play.rb
